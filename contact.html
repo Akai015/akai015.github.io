@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="img/logo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio-Contact</title>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="/numpy module/webpage/img/logo2.png" alt=""></a>
+        <div class="nav-links"  id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="samples.html">SAMPLES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Me</h1>
+</section>
+
+</div>
+
+<!-------CONTACT ME------->
+
+
+<section class="location">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.885736855431!2d121.05062016486205!3d14.662425279489437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b73e289935e5%3A0xf5fd60f1d7e6f406!2sMinisters%20Apartel%20Compound%2C%20Central%20Ave%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1659228344929!5m2!1sen!2sph"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-me">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>#33 Minsters Apartel, Central Avenue,Barangay New Era</h5>
+                    <p>Quezon City, Philippines</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+63 945-572-2837</h5>
+                    <p>Tuesdays and Thursday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>rtrainer015@gmail.com</h5>
+                    <p>Email Me to Schedule an Interview</p>
+                </span>
+            </div>
+        </div>
+<div class="contact-col">
+    <form action="form-handler.php" method="post">
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <input type="email" name="email" placeholder="Enter Email Address" required>
+        <input type="text" name="subject" placeholder="Enter Your Subject" required>
+        <textarea name="message" rows="8" placeholder="Message"></textarea>
+        <button type="submit" class="go-btn red-btn">Send Message</button>
+    </form>
+</div>
+    </div>
+</section>
+<!------- CONTACT------>
+
+<secction class="footer">
+    <h4>Contact Me</h4>
+    <p>You can contact me with the following links in facebook, telegram or email. </p>
+    <h3>Myr Jvy Mahinay</h3>
+    <div class="icons">
+        <a href="https://www.facebook.com/D7Persona.777/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://telegram.me/D7Persona" target="_blank"><i class="fa fa-telegram"></i></a>
+        <a href="mailto:rtrainer015@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        
+    </div>
+</secction>
+
+
+<!------- JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

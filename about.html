@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="img/logo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio-About</title>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="/numpy module/webpage/img/logo2.png" alt=""></a>
+        <div class="nav-links"  id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="samples.html">SAMPLES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Me</h1>
+</section>
+
+</div>
+
+<!-------ABOUT------->
+
+
+<section class="about">
+    <br>
+    <h2 class="abt-h2">Hi! I'm Myr Jvy Mahinay.</h2>
+    <p class="description">To show a brief information about myself please consider the following:</p>
+    <div class="row">
+        <div class="about-col">
+            <h3>Bachelors Degree in Psychology.</h3>
+            <p><br>I am a college graduate from New Era University batch 2021-2022.</p>
+        </div>
+        <div class="about-col">
+            <h3>Achievements.</h3>
+            <p><br>I graduated from the university with a GWA of 1.127 attaining a Latin Honor of Summa Cum Laude.</p>
+        </div>
+        <div class="about-col">
+            <h3>Skills and experiences.</h3>
+            <p>I am a flexible well-managed leader; well capable of Using Word, Excel, Phyton Language Coding and HTML/CSS. Made a
+            short Training Module for officer trainees.</p>
+        </div>
+    </div>
+    
+
+</section>
+
+
+<!------- CONTACT------>
+
+<secction class="footer">
+    <h4>Contact Me</h4>
+    <p>You can contact me with the following links in facebook, telegram or email. </p>
+    <h3>Myr Jvy Mahinay</h3>
+    <div class="icons">
+        <a href="https://www.facebook.com/D7Persona.777/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://telegram.me/D7Persona" target="_blank"><i class="fa fa-telegram"></i></a>
+        <a href="mailto:rtrainer015@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        
+    </div>
+</secction>
+<!------- JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
